@@ -49,7 +49,7 @@ function task3() {
     else if (b*b - 4*a*c < 0) {
         alert ('The equation has no real root')
     }
-    else if (b*b - 4*a*c >= 0) {
+    else {
         alert ('The equation has 2 roots: x1 = ' + Math.round(x1*100)/100+' and x2 = '+ Math.round(x2*100)/100)
     }
 }
